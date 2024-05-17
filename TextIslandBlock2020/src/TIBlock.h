@@ -25,9 +25,6 @@
 
 #pragma once
 
-#ifndef SKELETON_H
-#define SKELETON_H
-
 typedef unsigned char		u_char;
 typedef unsigned short		u_short;
 typedef unsigned short		u_int16;
@@ -84,7 +81,7 @@ public:
 	typedef class ParamData {
 	public:
 		
-		// paramaters
+		// parameters
 		PF_Pixel color;
 		A_long block_only;
 		A_long cpy_pre;
@@ -140,5 +137,3 @@ extern "C" {
 		void			*extra);
 
 }
-
-#endif
